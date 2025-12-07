@@ -38,7 +38,7 @@ const Sidebar = () => {
           fontWeight: "bold",
         }}
       >
-        Project Menu
+        CalibreCue IT Solutions  pvt Ltd CRM
       </h2>
 
       {menuItems.map((item) => (

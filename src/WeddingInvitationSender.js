@@ -83,10 +83,8 @@ function WeddingInvitationSender() {
             setResponse({ error: 'Please fill in all wedding invitation details.' });
             return;
         }
-
         setLoading(true);
         setResponse(null);
-
         const payload = {
             phoneNumbers: phoneNumbers,
             couple1: couple1,

@@ -14,7 +14,7 @@ import QRCodeGenerator from "./QRCodeGenerator";
 import WhatsAppOTPAuth from "./WhatsAppOTPAuth";
 import InteractiveTemplateBuilder from "./InteractiveTemplateBuilder";
 import MediaIdSender from "./MediaIdSender";
-import GoogleMapsDemo from "./GoogleMapsDemo";
+import GoogleMaps from "./GoogleMaps";
 import RazorpayPaymentUI from "./RazorpayPaymentUI";
 import ExotelCallHandler from "./ExotelCallHandler";
 import WhatsAppMessageSender from "./WhatsAppMessageSender";
@@ -44,7 +44,7 @@ const App = () => {
             <Route path="/whatsapp-otp-auth" element={<WhatsAppOTPAuth />} />
             <Route path="/interactive-template-builder" element={<InteractiveTemplateBuilder />} />
             <Route path="/media-id-sender" element={<MediaIdSender />} />
-            <Route path="/google-maps-demo" element={<GoogleMapsDemo />} />
+            <Route path="/google-maps-demo" element={<GoogleMaps/>} />
             <Route path="/exotel-call-handler" element={<ExotelCallHandler />} />
             <Route path="/whatsapp-message-sender" element={<WhatsAppMessageSender />} />
             <Route path="/twilio-message-service" element={<TwilioMessageService />} />

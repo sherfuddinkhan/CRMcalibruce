@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Papa from 'papaparse';
 
-const WhatsAppMessageSender = () => {
+const WhatsAppLocationSender = () => {
   const [csvFile, setCsvFile] = useState(null);
   const [recipients, setRecipients] = useState([]);
   const [status, setStatus] = useState([]);
@@ -358,4 +358,4 @@ const WhatsAppMessageSender = () => {
   );
 };
 
-export default WhatsAppMessageSender;
+export default WhatsAppLocationSender;

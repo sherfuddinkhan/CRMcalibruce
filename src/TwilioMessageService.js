@@ -52,7 +52,6 @@ const InputField = memo(({ label, id, value, onChange, placeholder, type = "text
   );
 });
 
-
 const TwilioMessageService = () => {
   /* =====================
       STATE
@@ -278,8 +277,7 @@ const TwilioMessageService = () => {
               <div className="bg-red-50 text-red-700 border border-red-300 p-3 rounded-lg font-medium mb-4">
                 **Error:** {error}
               </div>
-            )}
-            
+            )}   
             {statusList.length > 0 && (
               <div className="mt-4 space-y-2 max-h-60 overflow-y-auto p-2 bg-gray-50 rounded-lg border border-gray-200">
                 <h3 className="text-sm font-semibold text-gray-600 sticky top-0 bg-gray-50 pb-1">Delivery Status:</h3>
