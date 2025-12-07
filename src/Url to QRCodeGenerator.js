@@ -4,7 +4,7 @@ import QrReader from 'react-qr-scanner';
 
 import './App.css';
 
-function QRCodeGenerator() {
+function UrltoQRCodeGenerator() {
   const [url, setUrl] = useState('');
   const [qrValue, setQrValue] = useState('');
   const [scanResult, setScanResult] = useState('');
@@ -88,4 +88,4 @@ function QRCodeGenerator() {
   );
 }
 
-export default QRCodeGenerator;
+export default UrltoQRCodeGenerator;

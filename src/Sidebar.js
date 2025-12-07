@@ -8,7 +8,7 @@ const Sidebar = () => {
     { path: "/", label: "AutoReply Manager" },
     { path: "/whatsapp-location-share", label: "WhatsApp Location Sender" },
     { path: "/wedding-invitation-sender", label: "Wedding Invitation Sender" },
-    { path: "/qr-code-generator", label: "QR Code Generator" },
+    { path: "/qr-code-generator", label: "Url to Qr code generater" },
     { path: "/whatsapp-otp-auth", label: "WhatsApp OTP Authentication" },
     { path: "/interactive-template-builder", label: "Interactive Template Builder" },
     { path: "/media-id-sender", label: "Media ID Sender" },

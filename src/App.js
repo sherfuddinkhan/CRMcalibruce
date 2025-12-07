@@ -10,7 +10,7 @@ import Sidebar from "./Sidebar";
 import AutoReplyManager from "./AutoReplyManager";
 import WhatsAppLocationSender from "./WhatsAppLocationSender";
 import WeddingInvitationSender from "./WeddingInvitationSender";
-import QRCodeGenerator from "./QRCodeGenerator";
+import QRCodeGenerator from "./Url to QRCodeGenerator";
 import WhatsAppOTPAuth from "./WhatsAppOTPAuth";
 import InteractiveTemplateBuilder from "./InteractiveTemplateBuilder";
 import MediaIdSender from "./MediaIdSender";
@@ -40,7 +40,7 @@ const App = () => {
             <Route path="/auto-reply-manager" element={<AutoReplyManager />} />
             <Route path="/whatsapp-location-share" element={<WhatsAppLocationSender />} />
             <Route path="/wedding-invitation-sender" element={<WeddingInvitationSender />} />
-            <Route path="/qr-code-generator" element={<QRCodeGenerator />} />
+            <Route path="/Url to Qr code generater" element={<QRCodeGenerator />} />
             <Route path="/whatsapp-otp-auth" element={<WhatsAppOTPAuth />} />
             <Route path="/interactive-template-builder" element={<InteractiveTemplateBuilder />} />
             <Route path="/media-id-sender" element={<MediaIdSender />} />
